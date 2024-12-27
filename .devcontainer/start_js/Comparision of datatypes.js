@@ -81,15 +81,39 @@ Array, Objects, Functions
 */
 
 //Array type
-const heros = ["Vishnu", "Rahul", "Sumit", "Avishwas"]
+// const heros = ["Vishnu", "Rahul", "Sumit", "Avishwas"]
 
 //Objects Type
-let MyObj = {
-    number: "Vishnu",
-    age: 18
+// let MyObj = {
+//     number: "Vishnu",
+//     age: 18
+// }
+
+// //Functions Type
+// const Myfunction = function(){
+//     console.log("Hello World");
+// }
+
+
+//memory type
+//it's two type
+//Stack  (primitive) ,  Heap (Non Primitive)
+
+// let myfacebookName = "VishnuKumarSingh"
+// let anothername = myfacebookName
+// anothername = "RajputSinghVishnu"
+
+// console.log(myfacebookName);
+// console.log(anothername);
+
+let userOne = {
+    email: "vksingh99@gmail.com"
+
 }
 
-//Functions Type
-const Myfunction = function(){
-    console.log("Hello World");
-}
+let userTwo = userOne
+
+userTwo.email = "Vksingh112005@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
