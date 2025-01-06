@@ -39,3 +39,22 @@ function ReturnSecondValue(getnewArray){
     return getnewArray[0]
 }
 console.log(ReturnSecondValue([288,3444,555,666]));
+
+function vishu(number){
+    return number * number
+}
+console.log(vishu(65))
+
+function myFunc(theObject) {
+    theObject.make = "Toyota";
+  }
+  
+  const myCar = {
+    make: "Honda",
+    model: "Accord",
+    year: 1998,
+  };
+  
+  console.log(myCar.make); // "Honda"
+  myFunc(myCar);
+  console.log(myCar.make); // "Toyota"
